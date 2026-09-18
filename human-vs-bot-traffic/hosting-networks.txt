@@ -1,0 +1,58 @@
+# Case-insensitive regexes matched against the GeoLite2 ASN organisation name.
+# A match means "hosting/cloud network: browser User-Agents from here are bots".
+# Built by reading the top ASNs in 04's output and tagging the obvious ones.
+# NOT listed on purpose: Apple, Cloudflare, Fastly, Akamai Technologies — they
+# carry iCloud Private Relay / WARP egress, which is real people, and 05
+# exempts them explicitly because "cloud" would otherwise match Cloudflare.
+hosting
+cloud
+server
+data ?cent
+^Amazon
+^Google LLC
+^Microsoft
+^OVH
+^Hetzner
+^DigitalOcean
+^Contabo
+^Akamai Connected Cloud
+^Linode
+^The Constant Company
+^Oracle
+^Tencent
+^Alibaba
+^HUAWEI
+^Leaseweb
+^M247
+^Datacamp
+^HostRoyale
+^EGIHosting
+^FDCservers
+^Latitude[.]sh
+^netcup
+^UpCloud
+^Web2Objects
+^velia[.]net
+^Tier[.]Net
+^B2 Net Solutions
+^ZOHO
+^Ahrefs
+^SEMrush
+^OCULUS NETWORKS
+^trafficforce
+^Wowrack
+^PureVoltage
+^Limestone
+^Hyonix
+^GorillaServers
+^ReliableSite
+^IONOS
+^Sprious
+^Dedik
+^Fast Servers
+^F[.]n[.]s[.] Holdings
+^UCLOUD
+^Global Transit
+^Alex Largman
+^HZ Hosting
+^HostPapa

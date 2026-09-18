@@ -1,0 +1,9 @@
+# Working data from running a recipe inside the clone. Logs and most outputs
+# contain visitor IP addresses, so none of it belongs in the repo.
+*.log
+*.log.*
+*.tsv
+*.txt
+*.classified
+*.png
+!human-vs-bot-traffic/hosting-networks.txt
