@@ -19,8 +19,9 @@ classes, using three signals together:
 | `human` | Browser User-Agent, consumer network, and the IP ran the page |
 | `unknown` | Browser User-Agent, consumer network, page only (or no User-Agent at all) |
 
-Written for the article *How much of your WooCommerce traffic is human?* at
-[headwall-hosting.com/wordpress-woocommerce-ops/](https://headwall-hosting.com/wordpress-woocommerce-ops/).
+Written for the article
+**[How much of your WooCommerce traffic is from actual humans?](https://headwall-hosting.com/wordpress-woocommerce-ops/human-vs-bot-traffic/)**,
+which walks through each step with real numbers from three shops.
 
 ## Requirements
 

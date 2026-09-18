@@ -16,9 +16,9 @@ cd ops-recipes/<recipe>
 
 ## Recipes
 
-| Recipe | What it does |
-|---|---|
-| [`human-vs-bot-traffic/`](human-vs-bot-traffic/) | Classify a week of Apache access-log page requests as human, verified search engine, declared crawler, disguised bot, fake Googlebot or unknown, using the User-Agent, the IP's network (GeoLite2-ASN) and whether anything ran the page. Includes an hour-of-day chart. |
+| Recipe | Article | What it does |
+|---|---|---|
+| [`human-vs-bot-traffic/`](human-vs-bot-traffic/) | [How much of your WooCommerce traffic is from actual humans?](https://headwall-hosting.com/wordpress-woocommerce-ops/human-vs-bot-traffic/) | Classify a week of Apache access-log page requests as human, verified search engine, declared crawler, disguised bot, fake Googlebot or unknown, using the User-Agent, the IP's network (GeoLite2-ASN) and whether anything ran the page. Includes an hour-of-day chart. |
 
 ## Ground rules
 
